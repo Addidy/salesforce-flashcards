@@ -1,0 +1,4 @@
+For new app development, what deployment plan is best to follow?: Plan, Develop, Test, Build the Release, stage, Release
+What are the three possible development models?: Change set development, Org development, Package development
+What are the benefits of using Change Set development?: No version control system, no developers needed, no CLI needed.
+What happens during staging?: Test what you’re actually going to deploy, but test safely in a staging environment that mimics production as much as possible. Use a realistic amount of representative production data. Connect your test environments with all the external systems they need to mimic your production system’s integration points. Run full regression and final performance tests in this step. Test the release with a small set of experienced people who provide feedback (a technique called user-acceptance testing).

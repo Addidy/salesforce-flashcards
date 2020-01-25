@@ -1,0 +1,7 @@
+What are the types of components you can use on a lightning page?:standard, custom, third-party appexchange
+What are the programming models you can use to make lightning components?:aura components, lightning web components
+What is shown in the header when you are working on a lightning page?:he header shows you its label, and contains a Pages list where you can see the last 10 pages that you modified. If you’re editing an app, the header also shows the app name and contains an App Settings tab where you can configure the app’s options such as branding, navigation, and the utility bar. In an app context, the Pages list shows all active Lightning pages associated with the current app.
+What is show in the toolbar of the lightning page editor?:Use the buttons in the toolbar to cut (Cut), copy (Copy), and paste (Paste) page content; and to undo (Undo), redo (Redo), save, or activate your Lightning page. You can also view your page in different formats, refresh the canvas, or adjust the canvas size to fit your view.
+How can you see what your page will look like on different devices while editing?:select a different view from the toolbar of the lightning page editor.
+What are the three different lightning page types?:App page, Record Page, Home Page
+What are the different options available to start creating a home page?:clone page, edit a page, create from scratch with a template.

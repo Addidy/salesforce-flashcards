@@ -1,0 +1,12 @@
+When can an approval process be started: When a specified criteria is met or TODO
+You can specify different actions for what part of the approval process?: Initial Submission, Final Approval, Final Rejection, Recall
+Who is the sender of approval requests?: Approval request notifications are sent from the user who submitted the record for approval.
+What effect does enabling "email approval response" in your org have?: Approvers can type approve, approved, yes, reject, rejected, or no in the first line of the email body and add comments in the second line when replaying to an approval request.
+Who can approve requests? (convert to closure): A user or queue that the approval request submitter chooses. A queue specified by the administrator. A user listed in the Manager standard field on the submitter’s user detail page. A user listed in a custom hierarchy field on the submitter’s user detail page. Any combination of users and related users (users listed in a standard or custom field on the submitted record) specified by the administrator.
+Who can edit records that are awaiting approval?: Records submitted for approval are locked. Users with the “Modify All” object-level permission for the given object or the “Modify All Data” permission can always unlock a record and edit it. You can also specify that the currently assigned approver can edit the record. 
+Can records be automatically approved, rejected, or skipped based on certain criteria?: You can set entry criteria for each step of your process. Configure Salesforce to approve, reject, or skip the process if a record doesn’t meet the criteria. For example, all expenses submitted with an Amount less than $15 are automatically approved.
+How many actions can you specify on approval/rejection etc: 10 actions, up to 40 total.
+What happens when a record is first submitted for approval?: When users submit a record for approval, Salesforce automatically locks the record so that other users cannot change it while it is awaiting approval. You can still add campaign members to campaigns locked for approval. Decide if you want other workflow actions to happen when a record is first submitted, such as email alerts, tasks, field updates, and outbound messages. These actions become your initial submission actions.
+How many active approval processess can be on one org?:1000
+How many approval processes can be on one org?:2000
+

@@ -1,0 +1,21 @@
+What are the different types of sandboxes:Full, Partial, Developer, Developer pro
+How much storage space does the Developer pro sandbox have?: 1GB
+How much storage space does the Developer sandbox have?: 200MB
+What is the intention of a Developer Sandboxes: intended for development and testing in an isolated environment.
+What data is copied into a Developer/pro Sandboxes: a copy of your production org’s configuration (metadata).
+What is the intention and use of a Developer Pro sandbox: intended for development and testing in an isolated environment. Use a Developer Pro sandbox to handle more development and quality assurance tasks and for integration testing or user training.
+What is the intention and use of a partial copy Sandbox: intended to be used as a testing environment. Use a Partial Copy sandbox for quality assurance tasks such as user acceptance testing, integration testing, and training.
+What data is copied into a partial copy Sandbox: includes a copy of your production org’s configuration (metadata) and a sample of your production org’s data as defined by a sandbox template.
+What is the intention and use of a full Sandbox:intended to be used as a testing environment. Only Full sandboxes support performance testing, load testing, and staging. Full sandboxes are a replica of your production org.
+What data is copied into a full Sandbox: everything
+What decisions do you have to make when creating a full sandbox: How much field tracking history and chatter activity to include.
+What do sandbox templates allow?:pick specific objects and data to copy to your Full or Partial Copy sandbox to control the size and content of each sandbox.
+What types of sandboxes support sandbox templates?:Sandbox templates are only available for use with Full or Partial Copy sandboxes.
+What is the refresh interval on developer/pro sandboxes: 1 day
+What is the refresh interval on partial copy sandboxes: 5 days
+What is the refresh interval on full sandboxes: 29 days
+How many sandboxes are available with professional edition?: 10 developer, 0 developer pro, 0 partial copy, 0 full
+How many sandboxes are available with performance edition?: 100 developer, 5 developer pro, 1 partial copy, 1 full
+How many sandboxes are available with unlimited edition?: 100 developer, 5 developer pro, 1 partial copy, 1 full
+How many sandboxes are available with enterprise edition?: 25 developer, 0 developer pro, 1 partial copy, 0 full
+Where to go to make a sandbox template?:TODO

@@ -1,0 +1,4 @@
+What are all the possible workflow actions?: email alerts, tasks, field updates, and outbound messages.
+What can you select as the start criteria for a workflow rule?: created - created, and every time it’s edited - created, and any time it’s edited to subsequently meet criteria
+What are the two types of actions usable on a workflow?: Immediate and Time-dependant
+What can prevent you adding a time dependant action to a workflow: The evaluation criteria is set to Evaluate the rule when a record is; created, and any time it’s edited to subsequently meet criteria. - The rule is activated. - The rule is deactivated but has pending actions in the workflow queue.
