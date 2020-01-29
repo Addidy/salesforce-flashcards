@@ -1,0 +1,7 @@
+Where can you distribute a screen flow?:Lightning pages, Flow actions, Utility bar, Community pages, Custom Lightning components, Visualforce pages, Web tabs, Custom buttons and links
+What is a possible reason a user cannot access a flow:They do not have run flow permissions enabled and the flow is set to restrict access
+A screen flow creates a record on a node before the screen, What happens if this flow is accessed from the canvas of a lightning page?:The record will be created everytime the flow is rendered (best practice to make the screen the first flow node)
+Are flow actions supported in classic?:no
+I've just added a flow to the utility bar, why is it not appearing?:The change can take several minutes to propagate to all relevant pages.
+What is the utility bar?:It's like an app specific footer that can hold actions, flows and navigation items
+How can I embed my flow on an external website:use Lightning Out
