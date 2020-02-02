@@ -1,0 +1,7 @@
+What Global action types are there?:Create a record, Send Email, Log a Call, Custom VisualForce, Custom Canvas, Lightning component
+What object specific action types are there?:Create a record, Send Email, Log a call, custom visualforce, custom canvase, lightning component, flow
+What types of custom detail buttons/links are there?: Link, Button, List Button
+What does a Detail Link do:Links can display other pages or websites
+What does a detail button do:Detail buttons offer record specific actions
+What does a detail list button do: List Buttons offer list of record specific actions
+
