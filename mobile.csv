@@ -1,1 +1,4 @@
 Can users access the app menu on mobile?:yes if you enable lightning mobile and allow apps phone support
+What is an action layout?:Action layouts are used to customize the layout of a page associated with an action..
+What kind of actions can be defin3ed for the Salesforce app?:global, object-specific, custom (visual force or canvas apps)
+what is a compact layout?:A compact layout determines the key fields that are displayed at the top of a record detail page.

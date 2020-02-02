@@ -1,0 +1,9 @@
+What can Duplicate management help manage duplicates for:Business accounts, contacts, leads, person accounts, custom objects
+Can you prevent duplicates of similar variations?:Yes, using fuzzy matching
+What is the difference between a matching rule and a duplicate rule:A matching rule determines whether the record a user is creating or updating is similar enough to other records to be considered a duplicate, whereas a duplicate rule tells Salesforce what action to take when duplicates are identified.
+What objects are covered by the standard matching rules?:Business accounts, contacts, leads.
+What are some possible duplicate rule actions?:Block the record from creation, create the record and show an alert, add the duplicate to a report for a manager.
+What do the standard duplicate rules do?:display an alert.
+Do you have standard duplicate rules?:if your org was created in spring '15 or later, yes
+Can you disable matching blank fields:yes
+What pre-requisites are required to reporting on duplicates:set up a report type that references Duplicate Record Items
